@@ -636,7 +636,7 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         return YepSoundEffect(fileURL: fileURL)
     }()
-
+    
     fileprivate func configureYepKit() {
 
         YepKit.Config.updatedAccessTokenAction = {
